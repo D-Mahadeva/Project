@@ -1,0 +1,72 @@
+.add-product-page {
+    margin: 2rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-header h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+  
+  .description {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .add-product-form {
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .form-text {
+    display: block;
+    margin-top: 0.5rem;
+    color: #6c757d;
+    font-size: 0.85rem;
+  }
+  
+  .supported-platforms {
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .supported-platforms h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .platform-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .platform {
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    color: #495057;
+  }
+  
+  @media (max-width: 768px) {
+    .add-product-page {
+      padding: 0 1rem;
+    }
+  }

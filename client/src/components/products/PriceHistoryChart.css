@@ -1,0 +1,10 @@
+.price-history-chart {
+    height: 300px;
+    margin: 1rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .price-history-chart {
+      height: 250px;
+    }
+  }
